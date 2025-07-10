@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+.env.*
+
+# Drizzle ORM
+/drizzle/
+
+# Docker volumes
+pgdata/
+redisdata/
+
+# Editor/OS files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Husky
+.husky/_/
+
+# Lint-staged temp
+*.lintstaged* 
